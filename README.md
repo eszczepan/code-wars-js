@@ -1,5 +1,18 @@
 # Algorithms tasks
 
+## [Task 002](./001)
+
+### Task:
+
+Write a function that given an intiger N, returns the number of times digit 1 occurs in decimal representations of all positive integers not exceeding N. N is an integer within the range [0...100,000]
+
+### Example:
+
+Given N = 13 the function should return 6, because:
+
+- all the positive integers do not exceed 13 are 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 and 13;
+- digit 1 occurs six times altogether: once in number 1, once in number 10, twice in number 11, once in number 12 and once in number 13.
+
 ## [Task 001](./001)
 
 ### Task:
