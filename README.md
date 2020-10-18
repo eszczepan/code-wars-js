@@ -1,5 +1,22 @@
 # Algorithms tasks
 
+## [Task 006](./006)
+
+### Task:
+
+Create a function that returns the sum of the two lowest positive numbers given an array of minimum 4 positive integers. No floats or non-positive integers will be passed.
+
+### Example:
+
+```
+sumTwoSmallestNumbers([19, 5, 42, 2, 77]) // output should be 7
+sumTwoSmallestNumbers([10, 343445353, 3453445, 3453545353453]) // should return 3453455
+```
+
+### Link:
+
+[Sum of two lowest positive integers](https://www.codewars.com/kata/558fc85d8fd1938afb000014)
+
 ## [Task 005](./005)
 
 ### Task:
