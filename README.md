@@ -1,14 +1,30 @@
 # Algorithms tasks
 
+## [Task 009](./009)
+
+### Description:
+
+Write a function that takes an integer as input, and returns the number of bits that are equal to one in the binary representation of that number. You can guarantee that input is non-negative.
+
+### Example:
+
+```
+The binary representation of 1234 is 10011010010, so the function should return 5 in this case
+```
+
+### Link:
+
+[Bit Counting](https://www.codewars.com/kata/526571aae218b8ee490006f4)
+
 ## [Task 008](./008)
 
-### Task:
+### Description:
 
 Jaden Smith, the son of Will Smith, is the star of films such as The Karate Kid (2010) and After Earth (2013). Jaden is also known for some of his philosophy that he delivers via Twitter. When writing on Twitter, he is known for almost always capitalizing every word. For simplicity, you'll have to capitalize each word, check out how contractions are expected to be in the example below.
 
 Your task is to convert strings to how they would be written by Jaden Smith. The strings are actual quotes from Jaden Smith, but they are not capitalized in the same way he originally typed them.
 
-Not Jaden-Cased: "How can mirrors be real if our eyes aren't real"
+Not Jaden-Cased: "How can mirrors be real if our eyes aren't real"  
 Jaden-Cased: "How Can Mirrors Be Real If Our Eyes Aren't Real"
 
 ### Example:
@@ -24,7 +40,7 @@ str.toJadenCase() // "School Is The Tool To Brainwash The Youth."
 
 ## [Task 007](./007)
 
-### Task:
+### Description:
 
 Given a string, capitalize the letters that occupy even indexes and odd indexes separately, and return as shown below. Index 0 will be considered even.
 
@@ -46,7 +62,7 @@ capitalize("codewarriors") // ['CoDeWaRrIoRs', 'cOdEwArRiOrS']
 
 ## [Task 006](./006)
 
-### Task:
+### Description:
 
 Create a function that returns the sum of the two lowest positive numbers given an array of minimum 4 positive integers. No floats or non-positive integers will be passed.
 
@@ -63,7 +79,7 @@ sumTwoSmallestNumbers([10, 343445353, 3453445, 3453545353453]) // should return 
 
 ## [Task 005](./005)
 
-### Task:
+### Description:
 
 Polycarpus works as a DJ in the best Berland nightclub, and he often uses dubstep music in his performance. Recently, he has decided to take a couple of old songs and make dubstep remixes from them.
 
@@ -90,7 +106,7 @@ songDecoder("WUBWEWUBAREWUBWUBTHEWUBCHAMPIONSWUBMYWUBFRIENDWUB")
 
 ## [Task 004](./004)
 
-### Task:
+### Description:
 
 The Western Suburbs Croquet Club has two categories of membership, Senior and Open. They would like your help with an application form that will tell prospective members which category they will be placed.
 
@@ -112,7 +128,7 @@ Test.assertSimilar(openOrSenior([[59, 12],[55,-1],[12, -2],[12, 12]]),['Senior',
 
 ## [Task 003](./003)
 
-### Task:
+### Description:
 
 You probably know the "like" system from Facebook and other pages. People can "like" blog posts, pictures or other items. We want to create the text that should be displayed next to such an item.
 
@@ -136,7 +152,7 @@ likes ["Alex", "Jacob", "Mark", "Max"] -- must be "Alex, Jacob and 2 others like
 
 ## [Task 002](./002)
 
-### Task:
+### Description:
 
 Write a function that given an intiger N, returns the number of times digit 1 occurs in decimal representations of all positive integers not exceeding N. N is an integer within the range [0...100,000]
 
@@ -149,7 +165,7 @@ Given N = 13 the function should return 6, because:
 
 ## [Task 001](./001)
 
-### Task:
+### Description:
 
 Write a function that receives two sequences: A and B of integers and returns one sequence C. Sequence C should contain all elements from sequence A (maintaining the order) except those, that are present in sequence B <i>p</i> times, where <i>p</i> is a prime number.
 
@@ -161,7 +177,7 @@ C = [2, 9, 2, 5, 7, 10]
 
 ## [FizzBuzz](./FizzBuzz)
 
-### Task:
+### Description:
 
 The goal of this function is to print out all numbers from 1 to 100 but with three exceptions:
 
