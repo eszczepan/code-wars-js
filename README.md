@@ -1,5 +1,28 @@
 # Algorithms tasks
 
+## [Task 014](./014)
+
+### Description:
+
+A sequence or a series, in mathematics, is a string of objects, like numbers, that follow a particular pattern. The individual elements in a sequence are called terms. A simple example is 3, 6, 9, 12, 15, 18, 21, ..., where the pattern is: "add 3 to the previous term".
+
+Complete the function that takes an integer n and returns a list/array of length abs(n) + 1. When n < 0 return the sequence with negative terms.
+
+### Example:
+
+```
+sumOfN(3); // [0, 1, 3, 6]
+sumOfN(-4); // [0, -1, -3, -6, -10]
+sumOfN(1); // [0, 1]
+sumOfN(0); // [0]
+sumOfN(10); // [0, 1, 3, 6, 10, 15, 21, 28, 36, 45, 55]
+
+```
+
+### Link:
+
+[Basic Sequence Practice](https://www.codewars.com/kata/5436f26c4e3d6c40e5000282)
+
 ## [Task 013](./013)
 
 ### Description:
