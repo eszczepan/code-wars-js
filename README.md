@@ -17,6 +17,14 @@ Given a string that Freddy wants to type, emulate the keyboard misses where each
 
 ```
 
+If (Caps Lock is Enabled) and then you (HOLD Shift + alpha character) it will always be the reverse
+
+```
+(Caps Lock Enabled) + (HOLD Shift + Press 'b') = b
+(Caps Lock Disabled) + (HOLD Shift + Press 'b') = B
+
+```
+
 ### Link:
 
 [Fat Fingers](https://www.codewars.com/kata/5aa99584fd5777ee9a0001f1)
