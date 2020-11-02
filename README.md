@@ -34,14 +34,6 @@ sum_pairs([10, 5, 2, 3, 7, 5],         10)
 
 ```
 
-If (Caps Lock is Enabled) and then you (HOLD Shift + alpha character) it will always be the reverse
-
-```
-(Caps Lock Enabled) + (HOLD Shift + Press 'b') = b
-(Caps Lock Disabled) + (HOLD Shift + Press 'b') = B
-
-```
-
 ### Note:
 
 There will also be lists tested of lengths upwards of 10,000,000 elements. Be sure your code doesn't time out.
