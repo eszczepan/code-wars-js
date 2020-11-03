@@ -14,6 +14,19 @@ const getCount = (str) => {
   return vowelsCount;
 };
 
+//Filter way
+// const getCount = (str) => {
+//   const vowels = {
+//     a: true,
+//     e: true,
+//     i: true,
+//     o: true,
+//     u: true,
+//   };
+
+//   return str.split("").filter((l) => vowels[l]).length;
+// };
+
 //Reduce way
 // const getCount = (str) => {
 //   const vowels = {
