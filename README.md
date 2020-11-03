@@ -1,5 +1,28 @@
 # Algorithms tasks
 
+## [Task 018](./018)
+
+### Description:
+
+Return the number (count) of vowels in the given string.
+
+We will consider `a, e, i, o, u` as vowels for this Kata (but not y).
+
+The input string will only consist of lower case letters and/or spaces.
+
+### Example:
+
+```
+getCount("abracadabra"); -> should return 5
+getCount("pear tree"); should return 4
+getCount("o a kak ushakov lil vo kashu kakao"); should return 13
+
+```
+
+### Link:
+
+[Vowel Count](https://www.codewars.com/kata/54ff3102c1bad923760001f3)
+
 ## [Task 017](./017)
 
 ### Description:
