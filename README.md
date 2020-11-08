@@ -1,6 +1,29 @@
 # Algorithms challenges
 
-## [Count the smiley faces! 025](./025)
+## [026 Scramblies](./026)
+
+### Description:
+
+Complete the function `scramble(str1, str2)` that returns `true` if a portion of `str1` characters can be rearranged to match `str2`, otherwise returns `false`.
+
+- Only lower case letters will be used (a-z). No punctuation or digits will be included.
+- Performance needs to be considered
+
+`Input strings s1 and s2 are null terminated.`
+
+### Example:
+
+```
+scramble('rkqodlw', 'world') ==> True
+scramble('cedewaraaossoqqyt', 'codewars') ==> True
+scramble('katas', 'steak') ==> False
+```
+
+### Link:
+
+[Scramblies](https://www.codewars.com/kata/55c04b4cc56a697bb0000048)
+
+## [025 Count the smiley faces! ](./025)
 
 ### Description:
 
@@ -32,7 +55,7 @@ In case of an empty array return 0. You will not be tested with invalid input (i
 
 [Count the smiley faces!](https://www.codewars.com/kata/583203e6eb35d7980400002a)
 
-## [List Filtering 024](./024)
+## [024 List Filtering](./024)
 
 ### Description:
 
@@ -50,7 +73,7 @@ filter_list([1,2,'aasf','1','123',123]) == [1,2,123]
 
 [List Filtering](https://www.codewars.com/kata/53dbd5315a3c69eed20002dd)
 
-## [Unique Sum 023](./023)
+## [023 Unique Sum](./023)
 
 ### Description:
 
@@ -69,7 +92,7 @@ Given a list of integers values, your job is to return the sum of the values; ho
 
 [Unique Sum](https://www.codewars.com/kata/56b1eb19247c01493a000065)
 
-## [Simple Pig Latin 022](./022)
+## [022 Simple Pig Latin](./022)
 
 ### Description:
 
@@ -87,7 +110,7 @@ pigIt('Hello world !');     // elloHay orldway !
 
 [Simple Pig Latin](https://www.codewars.com/kata/520b9d2ad5c005041100000f)
 
-## [IQ Test 021](./021)
+## [021 IQ Test](./021)
 
 ### Description:
 
@@ -107,7 +130,7 @@ iqTest("1 2 1 1") => 2 // Second number is even, while the rest of the numbers a
 
 [IQ Test](https://www.codewars.com/kata/552c028c030765286c00007d)
 
-## [Take a Ten Minute Walk 020](./020)
+## [020 Take a Ten Minute Walk](./020)
 
 ### Description:
 
@@ -129,7 +152,7 @@ You will always receive a valid array containing a random assortment of directio
 
 [Take a Ten Minute Walk](https://www.codewars.com/kata/54da539698b8a2ad76000228)
 
-## [Complementary DNA 019](./019)
+## [019 Complementary DNA](./019)
 
 ### Description:
 
@@ -151,7 +174,7 @@ DNAStrand ("GTAT") // return "CATA"
 
 [Complementary DNA](https://www.codewars.com/kata/554e4a2f232cdd87d9000038)
 
-## [Vowel Count 018](./018)
+## [018 Vowel Count](./018)
 
 ### Description:
 
@@ -174,7 +197,7 @@ getCount("o a kak ushakov lil vo kashu kakao"); should return 13
 
 [Vowel Count](https://www.codewars.com/kata/54ff3102c1bad923760001f3)
 
-## [Sum of pairs 017](./017)
+## [017 Sum of pairs](./017)
 
 ### Description:
 
@@ -216,7 +239,7 @@ There will also be lists tested of lengths upwards of 10,000,000 elements. Be su
 
 [Sum of pairs](https://www.codewars.com/kata/54d81488b981293527000c8f)
 
-## [Fat Fingers 016](./016)
+## [016 Fat Fingers](./016)
 
 ### Description:
 
@@ -245,7 +268,7 @@ If (Caps Lock is Enabled) and then you (HOLD Shift + alpha character) it will al
 
 [Fat Fingers](https://www.codewars.com/kata/5aa99584fd5777ee9a0001f1)
 
-## [Exes and Ohs 015](./015)
+## [015 Exes and Ohs](./015)
 
 ### Description:
 
@@ -266,7 +289,7 @@ XO("zzoo") => false
 
 [Exes and Ohs](https://www.codewars.com/kata/55908aad6620c066bc00002a)
 
-## [Basic Sequence Practice 014](./014)
+## [014 Basic Sequence Practice](./014)
 
 ### Description:
 
@@ -289,7 +312,7 @@ sumOfN(10); // [0, 1, 3, 6, 10, 15, 21, 28, 36, 45, 55]
 
 [Basic Sequence Practice](https://www.codewars.com/kata/5436f26c4e3d6c40e5000282)
 
-## [Decode the Morse code 013](./013)
+## [013 Decode the Morse code](./013)
 
 ### Description:
 
@@ -313,7 +336,7 @@ decodeMorse('.... . -.--   .--- ..- -.. .')
 
 [Decode the Morse code](https://www.codewars.com/kata/54b724efac3d5402db00065e)
 
-## [Mumbling 012](./012)
+## [012 Mumbling](./012)
 
 ### Description:
 
@@ -332,7 +355,7 @@ The parameter of accum is a string which includes only letters from a..z and A..
 
 [Mumbling](https://www.codewars.com/kata/5667e8f4e3f572a8f2000039)
 
-## [Century From Year 011](./011)
+## [011 Century From Year](./011)
 
 ### Description:
 
@@ -353,7 +376,7 @@ centuryFromYear(2000)  returns (20)
 
 [Century From Year](https://www.codewars.com/kata/5a3fe3dde1ce0e8ed6000097)
 
-## [Binary Addition 010](./010)
+## [010 Binary Addition](./010)
 
 ### Description:
 
@@ -371,7 +394,7 @@ addBinary(1, 2)) should return 11
 
 [Binary Addition](https://www.codewars.com/kata/551f37452ff852b7bd000139)
 
-## [Bit Counting 009](./009)
+## [009 Bit Counting](./009)
 
 ### Description:
 
@@ -387,7 +410,7 @@ The binary representation of 1234 is 10011010010, so the function should return 
 
 [Bit Counting](https://www.codewars.com/kata/526571aae218b8ee490006f4)
 
-## [Jaden Casing Strings 008](./008)
+## [008 Jaden Casing Strings](./008)
 
 ### Description:
 
@@ -409,7 +432,7 @@ str.toJadenCase() // "School Is The Tool To Brainwash The Youth."
 
 [Jaden Casing Strings](https://www.codewars.com/kata/5390bac347d09b7da40006f6)
 
-## [Alternate capitalization 007](./007)
+## [007 Alternate capitalization](./007)
 
 ### Description:
 
@@ -431,7 +454,7 @@ capitalize("codewarriors") // ['CoDeWaRrIoRs', 'cOdEwArRiOrS']
 
 [Alternate capitalization](https://www.codewars.com/kata/59cfc000aeb2844d16000075)
 
-## [Sum of two lowest positive integers 006](./006)
+## [006 Sum of two lowest positive integers](./006)
 
 ### Description:
 
@@ -448,7 +471,7 @@ sumTwoSmallestNumbers([10, 343445353, 3453445, 3453545353453]) // should return 
 
 [Sum of two lowest positive integers](https://www.codewars.com/kata/558fc85d8fd1938afb000014)
 
-## [Dubstep 005](./005)
+## [005 Dubstep](./005)
 
 ### Description:
 
@@ -475,7 +498,7 @@ songDecoder("WUBWEWUBAREWUBWUBTHEWUBCHAMPIONSWUBMYWUBFRIENDWUB")
 
 [Dubstep](https://www.codewars.com/kata/551dc350bf4e526099000ae5)
 
-## [Categorize New Member 004](./004)
+## [004 Categorize New Member](./004)
 
 ### Description:
 
@@ -497,7 +520,7 @@ Test.assertSimilar(openOrSenior([[59, 12],[55,-1],[12, -2],[12, 12]]),['Senior',
 
 [Categorize New Member](https://www.codewars.com/kata/5502c9e7b3216ec63c0001aa)
 
-## [Who likes it? 003](./003)
+## [003 Who likes it?](./003)
 
 ### Description:
 
