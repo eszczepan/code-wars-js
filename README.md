@@ -1,5 +1,30 @@
 # Algorithms challenges
 
+## [028 Credit Card Mask](./028)
+
+### Description:
+
+Usually when you buy something, you're asked whether your credit card number, phone number or answer to your most secret question is still correct. However, since someone could look over your shoulder, you don't want that shown on your screen. Instead, we mask it.
+
+Your task is to write a function `maskify`, which changes all but the last four characters into `'#'`.
+
+### Example:
+
+```
+askify("4556364607935616") == "############5616"
+maskify(     "64607935616") ==      "#######5616"
+maskify(               "1") ==                "1"
+maskify(                "") ==                 ""
+
+// "What was the name of your first pet?"
+maskify("Skippy")                                   == "##ippy"
+maskify("Nananananananananananananananana Batman!") == "####################################man!"
+```
+
+### Link:
+
+[Credit Card Mask](https://www.codewars.com/kata/5412509bd436bd33920011bc)
+
 ## [027 Human Readable Time](./027)
 
 ### Description:
@@ -10,8 +35,6 @@ Write a function, which takes a non-negative integer (seconds) as input and retu
 - `MM` = minutes, padded to 2 digits, range: 00 - 59
 - `SS` = seconds, padded to 2 digits, range: 00 - 59
   The maximum time never exceeds 359999 (`99:59:59`)
-
-You can find some examples in the test fixtures.
 
 ### Example:
 
