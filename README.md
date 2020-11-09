@@ -1,5 +1,24 @@
 # Algorithms challenges
 
+## [029 Create Phone Number](./029)
+
+### Description:
+
+Write a function that accepts an array of 10 integers (between 0 and 9), that returns a string of those numbers in the form of a phone number.
+
+The returned format must be correct in order to complete this challenge.
+Don't forget the space after the closing parentheses!
+
+### Example:
+
+```
+createPhoneNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]) // => returns "(123) 456-7890"
+```
+
+### Link:
+
+[Create Phone Number](https://www.codewars.com/kata/525f50e3b73515a6db000b83)
+
 ## [028 Credit Card Mask](./028)
 
 ### Description:
@@ -11,7 +30,7 @@ Your task is to write a function `maskify`, which changes all but the last four 
 ### Example:
 
 ```
-askify("4556364607935616") == "############5616"
+maskify("4556364607935616") == "############5616"
 maskify(     "64607935616") ==      "#######5616"
 maskify(               "1") ==                "1"
 maskify(                "") ==                 ""
