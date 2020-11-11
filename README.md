@@ -1,5 +1,66 @@
 # Algorithms challenges
 
+## [032 Roman Numerals Encoder](./032)
+
+### Description:
+
+Create a function taking a positive integer as its parameter and returning a string containing the Roman Numeral representation of that integer.
+
+Modern Roman numerals are written by expressing each digit separately starting with the left most digit and skipping any digit with a value of zero. In Roman numerals 1990 is rendered: 1000=M, 900=CM, 90=XC; resulting in MCMXC. 2008 is written as 2000=MM, 8=VIII; or MMVIII. 1666 uses each Roman symbol in descending order: MDCLXVI.
+
+Remember that there can't be more than 3 identical symbols in a row.
+
+More about roman numerals - http://en.wikipedia.org/wiki/Roman_numerals
+
+### Example:
+
+```
+solution(1000); // should return 'M'
+```
+
+### Help:
+
+```
+Symbol    Value
+I          1
+V          5
+X          10
+L          50
+C          100
+D          500
+M          1,000
+```
+
+### Link:
+
+[Roman Numerals Encoder](https://www.codewars.com/kata/51b62bf6a9c58071c600001b)
+
+## [031 Palindrome chain length](./031)
+
+### Description:
+
+Number is a palindrome if it is equal to the number with digits in reversed order. For example, 5, 44, 171, 4884 are palindromes and 43, 194, 4773 are not palindromes.
+
+Write a method `palindrome_chain_length` which takes a positive number and returns the number of special steps needed to obtain a palindrome. The special step is: "reverse the digits, and add to the original number". If the resulting number is not a palindrome, repeat the procedure with the sum until the resulting number is a palindrome.
+
+If the input number is already a palindrome, the number of steps is 0.
+
+Input will always be a positive integer.
+
+### Example:
+
+```
+Start with 87:
+
+87 + 78 = 165; 165 + 561 = 726; 726 + 627 = 1353; 1353 + 3531 = 4884
+
+4884 is a palindrome and we needed 4 steps to obtain it, so palindrome_chain_length(87) == 4
+```
+
+### Link:
+
+[Palindrome chain length](https://www.codewars.com/kata/525f039017c7cd0e1a000a26)
+
 ## [030 Equal Sides Of An Array](./030)
 
 ### Description:
@@ -14,9 +75,9 @@ You are given the array `{1,100,50,-51,1,1}`: Your function will return the inde
 ### Example:
 
 ```
-You are given the array `{20,10,-80,10,10,15,35}`
-At index 0 the left side is `{}`
-The right side is `{10,-80,10,10,15,35}`
+You are given the array {20,10,-80,10,10,15,35}
+At index 0 the left side is {}
+The right side is {10,-80,10,10,15,35}
 They both are equal to 0 when added. (Empty arrays are equal to 0 in this problem)
 Index 0 is the place where the left side and right side are equal.
 ```
