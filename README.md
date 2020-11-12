@@ -1,5 +1,26 @@
 # Algorithms challenges
 
+## [033 Triangular Numbers](./033)
+
+### Description:
+
+Triangular number is the amount of points that can fill equilateral triangle.
+
+Example: the number 6 is a triangular number because all sides of a triangle has the same amount of points.
+
+### Example:
+
+```
+isTriangular(15)); => should return true
+isTriangular(28)); => should return true
+isTriangular(2)); => should return false
+isTriangular(7)); => should return false
+```
+
+### Link:
+
+[Triangular Numbers](https://www.codewars.com/kata/56d0a591c6c8b466ca00118b)
+
 ## [033 Sum of Numbers](./033)
 
 ### Description:
