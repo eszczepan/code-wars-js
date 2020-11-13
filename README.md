@@ -1,6 +1,25 @@
 # Algorithms challenges
 
-## [033 Triangular Numbers](./033)
+## [035 Find the odd int](./035)
+
+### Description:
+
+Given an array of integers, find the one that appears an odd number of times.
+
+There will always be only one integer that appears an odd number of times.
+
+### Example:
+
+```
+findOdd([20,1,-1,2,-2,3,3,5,5,1,2,4,20,4,-1,-2,5]) => should return 5
+findOdd([1,1,2,-2,5,2,4,4,-1,-2,5]) => should return -1
+```
+
+### Link:
+
+[Find the odd int](https://www.codewars.com/kata/54da5a58ea159efa38000836)
+
+## [034 Triangular Numbers](./034)
 
 ### Description:
 
