@@ -1,5 +1,21 @@
 # Algorithms challenges
 
+## [037 Moving Zeros To The End](./037)
+
+### Description:
+
+Write an algorithm that takes an array and moves all of the zeros to the end, preserving the order of the other elements.
+
+### Example:
+
+```
+moveZeros([false,1,0,1,2,0,1,3,"a"]) // returns[false,1,1,2,1,3,"a",0,0]
+```
+
+### Link:
+
+[Moving Zeros To The End](https://www.codewars.com/kata/52597aa56021e91c93000cb0)
+
 ## [036 Sum of Digits / Digital Root](./036)
 
 ### Description:
