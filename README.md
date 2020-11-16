@@ -1,5 +1,22 @@
 # Algorithms challenges
 
+## [041 Convert string to camel case](./041)
+
+### Description:
+
+Complete the method/function so that it converts dash/underscore delimited words into camel casing. The first word within the output should be capitalized only if the original word was capitalized (known as Upper Camel Case, also often referred to as Pascal case).
+
+### Example:
+
+```
+toCamelCase("the-stealth-warrior") // returns "theStealthWarrior"
+toCamelCase("The_Stealth_Warrior") // returns "TheStealthWarrior"
+```
+
+### Link:
+
+[Convert string to camel case](https://www.codewars.com/kata/517abf86da9663f1d2000003)
+
 ## [040 Multiples of 3 or 5](./040)
 
 ### Description:
