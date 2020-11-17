@@ -1,5 +1,23 @@
 # Algorithms challenges
 
+## [042 Where my anagrams at?](./042)
+
+### Description:
+
+What is an anagram? Well, two words are anagrams of each other if they both contain the same letters.
+
+### Example:
+
+```
+anagrams('abba', ['aabb', 'abcd', 'bbaa', 'dada']) => ['aabb', 'bbaa']
+anagrams('racer', ['crazer', 'carer', 'racar', 'caers', 'racer']) => ['carer', 'racer']
+anagrams('laser', ['lazing', 'lazy',  'lacer']) => []
+```
+
+### Link:
+
+[Where my anagrams at?](https://www.codewars.com/kata/523a86aa4230ebb5420001e1)
+
 ## [041 Convert string to camel case](./041)
 
 ### Description:
