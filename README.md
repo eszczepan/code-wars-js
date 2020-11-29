@@ -1,5 +1,29 @@
 # Algorithms challenges
 
+## [050 Regex Password Validation](./050)
+
+### Description:
+
+You need to write regex that will validate a password to make sure it meets the following criteria:
+
+- At least six characters long
+- Contains a lowercase letter
+- Contains an uppercase letter
+- Contains a number
+
+Valid passwords will only be alphanumeric characters.
+
+### Example:
+
+```
+validate('djI38D55') => should return true
+!validate('a2.d412') => should return false
+```
+
+### Link:
+
+[Regex Password Validation](https://www.codewars.com/kata/52e1476c8147a7547a000811)
+
 ## [049 Does my number look big in this?](./049)
 
 ### Description:
