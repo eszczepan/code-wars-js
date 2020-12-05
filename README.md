@@ -1,24 +1,21 @@
 # Algorithms challenges
 
-## [054 Square every digit](./054)
+## [055 Counting Duplicates](./055)
 
 ### Description:
 
-Welcome. In this kata, you are asked to square every digit of a number and concatenate them.
-
-For example, if we run 9119 through the function, 811181 will come out, because 9^2 is 81 and 1^2 is 1.
-
-Note: The function accepts an integer and returns an integer
+Write a function that will return the count of distinct case-insensitive alphabetic characters and numeric digits that occur more than once in the input string. The input string can be assumed to contain only alphabets (both uppercase and lowercase) and numeric digits.
 
 ### Example:
 
 ```
-squareDigits(9119) => should return 811181
+"abcde" -> 0 # no characters repeats more than once
+"aabbcde" -> 2 # 'a' and 'b'
 ```
 
 ### Link:
 
-[Square Every Digit](https://www.codewars.com/kata/546e2562b03326a88e000020)
+[Counting Duplicates](https://www.codewars.com/kata/54bf1c2cd5b56cc47f0007a1)
 
 ## [053 Pete, the baker](./053)
 
