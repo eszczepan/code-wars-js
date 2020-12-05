@@ -1,3 +1,15 @@
+// while
+// const squareDigits = (num) => {
+//   let result = "";
+//   while (num > 0) {
+//     let digit = num % 10;
+//     let squaredDigit = Math.pow(digit, 2);
+//     result = result + squaredDigit;
+//     num = Math.floor(num / 10);
+//   }
+//   return +result;
+// };
+
 const squareDigits = (num) =>
   +num
     .toString()
