@@ -1,5 +1,26 @@
 # Algorithms challenges
 
+## [065 Two to One](./065)
+
+### Description:
+
+Take 2 strings s1 and s2 including only letters from ato z. Return a new sorted string, the longest possible, containing distinct letters, each taken only once - coming from s1 or s2.
+
+### Example:
+
+```
+a = "xyaabbbccccdefww"
+b = "xxxxyyyyabklmopq"
+longest(a, b) -> "abcdefklmopqwxy"
+
+a = "abcdefghijklmnopqrstuvwxyz"
+longest(a, a) -> "abcdefghijklmnopqrstuvwxyz"
+```
+
+### Link:
+
+[Two to One](https://www.codewars.com/kata/5656b6906de340bd1b0000ac)
+
 ## [064 First non-repeating character](./064)
 
 ### Description:
