@@ -1,5 +1,30 @@
 # Algorithms challenges
 
+## [068 PaginationHelper](./068)
+
+### Description:
+
+Given an `n x n` array, return the array elements arranged from outermost elements to the middle element, traveling clockwise.
+
+### Example:
+
+```
+array = [[1,2,3],
+         [4,5,6],
+         [7,8,9]]
+snail(array) #=> [1,2,3,6,9,8,7,4,5]
+```
+
+### Note:
+
+- The idea is not sort the elements from the lowest value to the highest; the idea is to traverse the 2-d array in a clockwise snailshell pattern.
+
+- The 0x0 (empty matrix) is represented as en empty array inside an array `[[]]`.
+
+### Link:
+
+[PaginationHelper](https://www.codewars.com/kata/515bb423de843ea99400000a)
+
 ## [067 Memoized Fibonacci](./067)
 
 ### Description:
