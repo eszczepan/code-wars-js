@@ -1,5 +1,21 @@
 # Algorithms challenges
 
+## [069 Find the capitals](./069)
+
+### Description:
+
+Write a function that takes a single string `(word)` as argument. The function must return an ordered list containing the indexes of all capital letters in the string.
+
+### Example:
+
+```
+capitals('CodEWaRs') => return [0,3,4,6]
+```
+
+### Link:
+
+[Find the capitals](https://www.codewars.com/kata/539ee3b6757843632d00026b)
+
 ## [068 PaginationHelper](./068)
 
 ### Description:
