@@ -1,5 +1,25 @@
 # Algorithms challenges
 
+## [070 Find the capitals](./070)
+
+### Description:
+
+The test fixture I use for this kata is pre-populated.
+
+It will compare your guess to a random number generated using:
+
+`Math.floor(Math.random() * 100 + 1)`
+
+### Example:
+
+```
+capitals('CodEWaRs') => return [0,3,4,6]
+```
+
+### Link:
+
+[Find the capitals](https://www.codewars.com/kata/539ee3b6757843632d00026b)
+
 ## [069 Find the capitals](./069)
 
 ### Description:
