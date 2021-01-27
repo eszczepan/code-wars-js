@@ -1,10 +1,29 @@
 # Algorithms challenges
 
+## [075 Valid Parentheses](./075)
+
+### Description:
+
+Write a function called that takes a string of parentheses, and determines if the order of the parentheses is valid. The function should return `true` if the string is valid, and `false` if it's invalid.
+
+### Example:
+
+```
+"()"              =>  true
+")(()))"          =>  false
+"("               =>  false
+"(())((()())())"  =>  true
+```
+
+### Link:
+
+[Valid Parentheses](https://www.codewars.com/kata/52774a314c2333f0a7000688)
+
 ## [074 Replace With Alphabet Position](./074)
 
 ### Description:
 
-you are required to, given a string, replace every letter with its position in the alphabet.
+Replace every letter with its position in the alphabet.
 
 If anything in the text isn't a letter, ignore it and don't return it.
 
