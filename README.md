@@ -1,5 +1,28 @@
 # Algorithms challenges
 
+## [076 One line task: Square Every Digit](./076)
+
+### Description:
+
+Square every digit in the given number in 36 or fewer characters. Return value should be in integer format.
+
+### Example:
+
+```
+sd(0)=>    0
+sd(64)=>   3616
+sd(1111)=> 1111
+sd(2222)=> 4444
+sd(3333)=> 9999
+sd(3212)=> 9414
+sd(1234)=> 14916
+sd(77455754)=> 4949162525492516
+```
+
+### Link:
+
+[One line task: Square Every Digit](https://www.codewars.com/kata/5acd142a2ec8c48521000104)
+
 ## [075 Valid Parentheses](./075)
 
 ### Description:
