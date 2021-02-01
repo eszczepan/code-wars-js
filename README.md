@@ -1,5 +1,29 @@
 # Algorithms challenges
 
+## [077 Exponential Comparison](./077)
+
+### Description:
+
+Comparing two numbers written in index form like 2^11 and 3^7 is not difficult, as any calculator would confirm that 2^11 = 2048 < 3^7 = 2187.
+
+However, confirming that 632382^518061 > 519432^525806 would be much more difficult, as both numbers contain over three million digits.
+
+Your task is to write a function that takes two arrays in the form of [base, exponent] where base and exponent are positive integers, and return the largest of the two pairs of numbers.
+
+### Example:
+
+```
+compare([2,11],[3,7]) => [3,7]
+compare([1,10],[2,3]) => [2,3]
+compare([3,5],[5,3]) => [3,5]
+compare([4,7],[3,8]) => [4,7]
+compare([5, 1000],[6, 900]) => [6, 900]
+```
+
+### Link:
+
+[Exponential Comparison](https://www.codewars.com/kata/5b1cce03777ab73442000134)
+
 ## [076 One line task: Square Every Digit](./076)
 
 ### Description:
