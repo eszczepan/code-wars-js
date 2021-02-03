@@ -1,5 +1,62 @@
 # Algorithms challenges
 
+## [079 Who has the most money?](./079)
+
+### Description:
+
+Sheldon, Leonard, Penny, Rajesh and Howard are in the queue for a "Double Cola" drink vending machine; there are no other people in the queue. The first one in the queue (Sheldon) buys a can, drinks it and doubles! The resulting two Sheldons go to the end of the queue. Then the next in the queue (Leonard) buys a can, drinks it and gets to the end of the queue as two Leonards, and so on.
+
+For example, Penny drinks the third can of cola and the queue will look like this:
+
+`Rajesh, Howard, Sheldon, Sheldon, Leonard, Leonard, Penny, Penny`
+
+Write a program that will return the name of the person who will drink the n-th cola.
+
+### Example:
+
+```
+whoIsNext(["Sheldon", "Leonard", "Penny", "Rajesh", "Howard"], 1) == "Sheldon"
+whoIsNext(["Sheldon", "Leonard", "Penny", "Rajesh", "Howard"], 52) == "Penny"
+whoIsNext(["Sheldon", "Leonard", "Penny", "Rajesh", "Howard"], 7230702951) == "Leonard"
+```
+
+### Link:
+
+[Who has the most money?](https://www.codewars.com/kata/528d36d7cc451cd7e4000339)
+
+## [078 Who has the most money?](./078)
+
+### Description:
+
+You're going on a trip with some students and it's up to you to keep track of how much money each Student has. A student is defined like this:
+
+```
+class Student {
+  constructor(name, fives, tens, twenties) {
+    this.name = name;
+    this.fives = fives;
+    this.tens = tens;
+    this.twenties = twenties;
+  }
+}
+```
+
+### Example:
+
+```
+const andy = new Student("Andy", 0, 0, 2);
+const stephen = new Student("Stephen", 0, 4, 0);
+const eric = new Student("Eric", 8, 1, 0);
+const david = new Student("David", 2, 0, 1);
+const phil = new Student("Phil", 0, 2, 1);
+
+mostMoney([andy, stephen, eric, david, phil]) => should return "Eric"
+```
+
+### Link:
+
+[Who has the most money?](https://www.codewars.com/kata/528d36d7cc451cd7e4000339)
+
 ## [077 Exponential Comparison](./077)
 
 ### Description:
