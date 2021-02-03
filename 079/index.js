@@ -9,4 +9,5 @@ function whoIsNext(names, r) {
 
 const names = ["Sheldon", "Leonard", "Penny", "Rajesh", "Howard"];
 console.log(whoIsNext(names, 1), "Sheldon");
+console.log(whoIsNext(names, 8), "Leonard");
 console.log(whoIsNext(names, 52), "Penny");
