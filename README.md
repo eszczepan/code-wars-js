@@ -1,5 +1,23 @@
 # Algorithms challenges
 
+## [083 Most consecutive 0's in a row](./083)
+
+### Description:
+
+Your program must find the longest sequence of consecutive zeroes in an integer number.
+
+Do it in less than 60 (59 or less) chars.
+
+### Example:
+
+```
+The number 10002030000 has three sequences of zeroes with lengths 3, 1 and 4. So the longest sequence is 4.
+```
+
+### Link:
+
+[Most consecutive 0's in a row](https://www.codewars.com/kata/5b901127d0093853470001e7)
+
 ## [082 Sum of a sequence](./082)
 
 ### Description:
