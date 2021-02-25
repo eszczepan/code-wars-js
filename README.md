@@ -1,5 +1,33 @@
 # Algorithms challenges
 
+## [085 Convert PascalCase string into snake_case](./085)
+
+### Description:
+
+Complete the function/method so that it takes CamelCase string and returns the string in snake_case notation. Lowercase characters can be numbers. If method gets number, it should return string.
+
+### Example:
+
+```
+//  returns test_controller
+toUnderscore('TestController');
+
+// returns movies_and_books
+toUnderscore('MoviesAndBooks');
+
+// returns app7_test
+toUnderscore('App7Test');
+
+// returns "1"
+toUnderscore(1);
+
+(Condition 2) not fulfilled).
+```
+
+### Link:
+
+[Convert PascalCase string into snake_case](https://www.codewars.com/kata/529b418d533b76924600085d)
+
 ## [084 Bouncing Balls](./084)
 
 ### Description:
