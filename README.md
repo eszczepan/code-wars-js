@@ -1,5 +1,26 @@
 # Algorithms challenges
 
+## [096 Detect Pangram](./096)
+
+### Description:
+
+A pangram is a sentence that contains every single letter of the alphabet at least once. For example, the sentence "The quick brown fox jumps over the lazy dog" is a pangram, because it uses the letters A-Z at least once (case is irrelevant).
+
+Given a string, detect whether or not it is a pangram. Return True if it is, False if not. Ignore numbers and punctuation.
+
+### Example:
+
+```
+const string1 = "The quick brown fox jumps over the lazy dog."
+isPangram(string1) => should return true
+const string2 = "This is not a pangram."
+isPangram(string2) => should return false
+```
+
+### Link:
+
+[Detect Pangram](https://www.codewars.com/kata/545cedaa9943f7fe7b000048)
+
 ## [095 Split Strings](./095)
 
 ### Description:
@@ -15,7 +36,7 @@ solution('abcdef') // should return ['ab', 'cd', 'ef']
 
 ### Link:
 
-[The highest profit wins!](https://www.codewars.com/kata/515de9ae9dcfc28eb6000001)
+[Split Strings](https://www.codewars.com/kata/515de9ae9dcfc28eb6000001)
 
 ## [094 The highest profit wins!](./094)
 
