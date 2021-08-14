@@ -1,6 +1,6 @@
 # Algorithms challenges
 
-## [097 Hello W... wait what?](./096)
+## [097 Hello W... wait what?](./097)
 
 ### Description:
 
